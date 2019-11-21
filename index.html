@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inserisci i dati</h1>
+    <form>
+    Nome <input type="text" id="name">
+    <br>
+    Cognome <input type="text" id="surname">
+    <br>
+    Data di nascita <input type="date" id="data">
+    <br>
+    <input type="radio" id="maleRadioButton" name="gender" value="maschio"> maschio
+    <input type="radio" name="gender" value="femmina"> femmina
+    <br>
+    <input type="checkbox" id="qualifica1" name="specialization" value="frontEnd"> Front-End
+    <input type="checkbox" id="qualifica2" name="specialization" value="backEnd"> Back-End
+    <input type="checkbox" id="qualifica3" name="specialization" value="analist"> Analist
+    <br>
+    <select id="linguaggi" name="list" multiple>
+        <option value="C#">C#</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Invia Dati">
+</form>
+    <br><br><br>
+    <div id="printError"></div>
+    <div id="printName"></div>
+    <div id="printSurname"></div>
+    <div id="printDate"></div>
+    <div id="printGender"></div>
+    <div id="printSelector"></div>
+    <div id="printSelectedList"></div>
+    <script src="script.js" ></script>
+</body>
+
+</html>
